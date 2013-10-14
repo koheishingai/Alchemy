@@ -47,7 +47,7 @@ function ajaxread(filenm){
 
   $.fn.cssin = function(name, tag){ //style
 
-    ajaxread('http://localhost:3000/scripts/out.js');
+    ajaxread('/scripts/out.js');
     var structuretree = [];
     structuretree.push(stylename); //0
     structuretree.push(stylechnum); //1
